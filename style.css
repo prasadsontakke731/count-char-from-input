@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  border: 1px solid rebeccapurple;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(46, 227, 46);
+}
+input {
+  font-size: 30px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  text-align: center;
+  margin-top: 100px;
+}
+button {
+  padding: 10px 60px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+.text {
+  height: 150px;
+  width: 80%;
+  background: white;
+  margin-top: 50px;
+  font-size: 40px;
+}
